@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="296.0" prefWidth="410.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nastya.NewEstateController">
+   <children>
+      <TextField layoutX="131.0" layoutY="33.0" promptText="Площадь" fx:id="squareField"/>
+      <TextField layoutX="129.0" layoutY="83.0" promptText="Кол-во комнат" fx:id="roomQntField" />
+      <TextField layoutX="129.0" layoutY="129.0" promptText="Адрес" fx:id="addressField" />
+      <TextField layoutX="131.0" layoutY="175.0" promptText="Стоимость" fx:id="priceField" />
+      <Button layoutX="129.0" layoutY="243.0" mnemonicParsing="false" text="Добавить собственность" onAction="#addEstate" />
+   </children>
+</AnchorPane>
